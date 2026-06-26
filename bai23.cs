@@ -7,9 +7,9 @@ namespace ChuVi
         static void Main(string[] args)
         {
             int r  = int.Parse(Console.ReadLine());
-            int cv = r * 2 * 3.14;
-            int dt = r * r * 3.14;
-            
+            double cv = r * 2 * 3.14;
+            double dt = r * r * 3.14;
+            Console.Write($"{cv:F2}" + " " + $"{dt:F2}" );
         }
     }
 }
