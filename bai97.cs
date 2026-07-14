@@ -3,7 +3,7 @@ using System;
 using System.Text;
 class Program
 {
-    static void main()
+    static void Main()
     {
         int k = int.Parse(Console.ReadLine().Trim());
         int sum = 0;
